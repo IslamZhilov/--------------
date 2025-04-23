@@ -1,379 +1,775 @@
 <!DOCTYPE html>
-<html lang="ru" class="page">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:locale" content="ru_RU" />
-    <meta property="og:type" content="website" />
-    <title>Портфолио</title>
-    <meta property="og:title" content="Портфолио (пример)" />
-    <meta name="description" content="Описание сайта отображаемое в превью ссылок" />
-    <meta property="og:description" content="Описание сайта отображаемое в превью ссылок" />
-    <meta name="keywords" content="портфолио, веб-разработчик, веб-дизайнер, сайты" />
-    <meta property="og:image" content="https://example.com/assets/img/preview.png" />
-    <meta property="og:image:alt" content="Описание изображения" />
-    <meta property="og:url" content="https://example.com/" />
-    <link rel="canonical" href="https://example.com/" />
-    <title>Сайт-портфолио</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="page-body">
-    <nav class="navbar">
-        <ul class="navbar-list">
-            <li class="navbar-item">
-                <a class="nav-button color-black" href="#main">Главная</a>
-            </li>
-            <li class="navbar-item">
-                <a class="nav-button color-black" href="#about">Обо мне</a>
-            </li>
-            <li class="navbar-item">
-                <a class="nav-button color-black" href="#skills">Навыки и стэк</a>
-            </li>
-            <li class="navbar-item">
-                <a class="nav-button color-black" href="#projects">Проекты</a>
-            </li>
-        </ul>
-        <div class="contact-button-container">
-            <a class="contact-button color-orange" href="#form">
-                <span class="contact-button-text">Связаться со мной</span>
-            </a>
-        </div>
-    </nav>
-
-    <main>
-        <section class="container" id="main">
-            
-                    <h1 class="big-header color-black">Жилов Ислам</h1>
-                    <p class="main-desc desc-font color-black">Разрабатываю сайты-визитки и рекламные лендинги.</p>
-                    <img class="main-pic" src="/Изображения/Главный экран.png" alt="Главнй экран">      
-        </section>
-        <section id="about" class="container">
-            <div class="about-details background-turquoise">
-                <h1 class="big-header color-black">
-                    Привет, я веб-разработчик
-                </h1>
-                <p class="about-desc desc-font color-black">
-                    Описание автора портфолио. Более подробный текст про вас, что вы делаете, какими проектами занимаетесь, какой у
-                    вас опыт в профессии.
-                </p>
-            </div>
-            <figure class="about-photo">
-                <img src="/Изображения/photo.png" alt="Фотография автора портфолио">
-            </figure>
-        </section> 
-
-        <section id="skills" class="container">
-            <h1 class="big-header color-black">
-                Навыки и стек технологий
-            </h1>
-            <div class="skills-table">
-                <div class="skills-card">
-                    <section class="skills-card-section">
-                        <img 
-                            class="skills-card-icon" 
-                            src="/Иконки/Development.svg" 
-                            alt="Иконка програмный код"
-                        />
-                        <h2 class="skills-card-header color-black">
-                            Разработка сайтов
-                        </h2>
-                        <p class="skills-card-text color-black">
-                            Короткое общее описание навыков в разработке: 
-                            фронтенд, бэкенд, базы данных, DevOps.
-                        </p>
-                    </section>
-
-                    <section class="skills-card-section">
-                        <h3 class="skills-card-subheader color-orange">
-                            Языки
-                        </h3>
-                        <ul class="skills-card-list color-black">
-                            <li>HTML, CSS...</li>
-                            <li>Дополните список</li>
-                        </ul>
-                        <h3 class="skills-card-subheader color-orange">
-                            Инструменты
-                        </h3>
-                        <ul class="skills-card-list color-black">
-                            <li>VS Code</li>
-                            <li>Github</li>
-                            <li>Git</li>
-                            <li>Дополните список</li>
-                        </ul>
-                    </section>
-                </div>
-                <div class="skills-card">
-                    <section class="skills-card-section">
-                        <img 
-                            class="skills-card-icon" 
-                            src="/Иконки/Design.svg" 
-                            alt="Иконка кисть на фоне компьютера"
-                        />
-                        <h2 class="skills-card-header color-black">
-                            Дизайн
-                        </h2>
-                        <p class="skills-card-text color-black">
-                            Короткое общее описание навыков дизайна.
-                        </p>
-                    </section>
-                    <section class="skills-card-section">
-                        <h3 class="skills-card-subheader color-orange">
-                            Инструменты
-                        </h3>
-                        <ul class="skills-card-list color-black">
-                            <li>Figma</li>
-                            <li>Дополните список</li>
-                        </ul>
-                    </section>
-                </div>
-
-                <div class="skills-card">
-                    <section class="skills-card-section">
-                        <img 
-                            class="skills-card-icon"
-                            src="/Иконки/SoftSkills.svg"
-                            alt="Иконка коммуникация"
-                        />
-                        <h2 class="skills-card-header color-black">
-                            Soft skills
-                        </h2>
-                        <p class="skills-card-text color-black">
-                            Короткое общее описание софт скиллов. 
-                            Умение работать в команде и пр.
-                        </p>
-                    </section>
-                    <section class="skills-card-section">
-                        <h3 class="skills-card-subheader color-orange">
-                            Навыки
-                        </h3>
-                        <ul class="skills-card-list color-black">
-                            <li>Навык</li>
-                            <li>Навык</li>
-                            <li>Навык</li>
-                            <li>Навык</li>
-                        </ul>
-                    </section>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="projects" class="container">
-            <h1 class="big-header color-black">Проекты</h1>
-            <div class="projects-display">
-                <figure class="projects-card">
-                    <a href="https://github.com/IslamZhilov/index.git">
-                        <img src="/Изображения/screenshot.png" alt="Скриншот проекта" />
-                    </a>
-                </figure>
-                <figure class="projects-card">
-                    <a href="https://example.com">
-                        <img src="/Изображения/screenshot.png" alt="Скриншот проекта" />
-                    </a>
-                </figure>
-                <figure class="projects-card">
-                    <a href="https://example.com">
-                        <img src="/Изображения/screenshot.png" alt="Скриншот проекта" />
-                    </a>
-                </figure>
-                <figure class="projects-card">
-                    <a href="https://example.com">
-                        <img src="/Изображения/screenshot.png" alt="Скриншот проекта" />
-                    </a>
-                </figure>
-                <figure class="projects-card">
-                    <a href="https://example.com">
-                        <img src="/Изображения/screenshot.png" alt="Скриншот проекта" />
-                    </a>
-                </figure>
-                <figure class="projects-card">
-                    <a href="https://example.com">
-                        <img src="/Изображения/screenshot.png" alt="Скриншот проекта" />
-                    </a>
-                </figure>
-            </div>
-
-            <a class="projects-button color-orange" href="https://github.com/username">
-                <span class="projects-button-text">Посмотреть на Github</span>
-            </a>
-        </section>
-
-
-
-        <section id="form" class="container">
-            <div class="form-details container background-turquoise">
-                <h1 class="big-header color-black">
-                    Хотите заказать сайт?
-                </h1>
-                <p class="form-details-text desc-font color-black">
-                    Напишите мне, чтобы обсудить детали.
-                </p>
-            </div>
-            <div id="contact-form" class="form-container">
-                <img 
-                    class="form-pic" 
-                    src="/Изображения/Форма.png" 
-                    alt="Абстрактное изображение компьютера и рук печатающих на клавиатуре"
-                />               
-                <form class="form">
-                    <fieldset class="form-sender-data">
-                        <label class="form-field" for="name">
-                            <span class="form-label color-black">Имя</span>
-                            <input class="form-input color-black" type="text" name="name" />
-                        </label>
-                        <label class="form-field" for="email">
-                            <span class="form-label color-black">E-mail</span>
-                            <input class="form-input color-black" type="email" name="email" />
-                        </label>
-                    </fieldset>
-                    <fieldset class="form-text-body">
-                        <label class="form-field" for="body">
-                            <span class="form-label color-black">Расскажите про свою задачу</span>
-                            <textarea class="form-input color-black" name="body"></textarea>
-                        </label>
-                    </fieldset>
-                    <fieldset class="form-submit">
-                        <button class="form-button color-orange" type="submit">
-                            <span class="form-button-text">Отправить</span>
-                        </button>
-                    </fieldset>
-                </form>
-            </div>
-        </section>
-
-        <section id="reviews" class="container">
-            <h1 class="big-header color-black">
-                Отзывы
-            </h1>
-            <p class="reviews-desc desc-font color-black">
-                Люди, с которыми я работал(а), остаются довольны результатом.
-            </p>
-            <figure class="reviews-card">
-                <div class="reviews-photo">
-                    <img 
-                        src="/Изображения/photo.png"
-                        alt="Фото автора отзыва"
-                    />
-                </div>
-                <figcaption class="reviews-caption">
-                    <p class="reviews-text color-black">«Текст отзыва»</p>
-                    <p class="reviews-info color-black">Имя Фамилия</p>
-                    <p class="reviews-info color-black">Компания, Город</p>
-                </figcaption>
-            </figure>
-            <div class="reviews-toggle">
-                <button class="reviews-toggle-button" type="button">
-                    <img 
-                        class="reviews-toggle-arrow" 
-                        src="/Иконки/Arrow-L.svg" 
-                        alt="Стрелка влево"
-                    />
-                    <img 
-                        class="reviews-toggle-arrow icon-hover"
-                        src="/Иконки/Arrow-L-white.svg" 
-                        alt="Стрелка влево" 
-                    />
-                </button>
-
-                <button class="reviews-toggle-button" type="button">
-                    <img 
-                        class="reviews-toggle-arrow" 
-                        src="/Иконки/Arrow-R.svg" 
-                        alt="Стрелка вправо" 
-                    />
-                    <img 
-                        class="reviews-toggle-arrow icon-hover" 
-                        src="/Иконки/Arrow-R-white.svg" 
-                        alt="Стрелка вправо" 
-                    />
-                </button>
-            </div>
-        </section>
-    </main>
-
-    <aside id="letstalk" class="container">
-        <div class="letstalk-box">
-            <h2 class="letstalk-header">
-                Договоримся о сотрудничестве
-            </h2>
-            <p class="letstalk-text">
-                У вас есть идея проекта или предложение о работе? 
-                Напишите мне. Я открыт к разным вариантам
-                сотрудничества.
-            </p>
-            <div class="letstalk-button-container">
-                <a class="letstalk-button" href="#form">
-                    <span class="letstalk-button-text">Связаться с разработчиком</span>
-                </a>
-            </div>
-        </div>
-    </aside>
-
-    <footer>
-        <div class="footer-socials">
-            <a class="footer-social-container" href="https://t.me/KillaCanBe">
-                <img 
-                    class="footer-social-icon" 
-                    src="/Иконки/TG.svg"
-                />
-                <img 
-                    class="footer-social-icon icon-hover" 
-                    src="/Иконки/TG-white.svg"
-                />
-            </a>
-            <a class="footer-social-container" href="https://habr.com/ru/users/example">
-                <img
-                    class="footer-social-icon" 
-                    src="/Иконки/Habr.svg" 
-                />
-                <img
-                    class="footer-social-icon icon-hover"
-                    src="/Иконки/Habr-white.svg"
-                />
-            </a>
-            <a class="footer-social-container" href="yandex:zhilovislam@yandex.com">
-                <img 
-                    class="footer-social-icon" 
-                    src="/Иконки/Email.svg" 
-                />
-                <img 
-                    class="footer-social-icon icon-hover" 
-                    src="/Иконки/Email-white.svg" 
-                />
-            </a>
-        </div>
+<html lang="ru">
+    <head>
+        <!-- Общие метатеги: кодировка (charset) -->
+        <meta charset="utf-8">
+        <!--
+            Далее задаются метатеги с атрибутом property. Значение атрибута начинается с "og:". 
+            Это метатеги для социальных сетей. Они передают соцсетям 
+            и мессенджерам основную информацию о сайте. Эта информация отображается,
+            например, в сообщении в мессенджере, когда вы отправляете ссылку
+            на сайт. Или на странице в соцсети, когда делитесь ссылкой.
+            Подробнее см на https://ogp.me/.
+        -->
+        <!-- Метатег, который указывает на основной язык страницы -->
+        <meta property="og:locale" content="ru_RU" />
+        <!-- Метатеги, которые указывают на тип страницы -->
+        <meta property="og:type" content="website" />
+         <!-- Метатеги и тег title, которые указывают на название страницы -->
+        <title>Портфолио</title>
+        <meta property="og:title" content="Портфолио (пример)" />
+       <!-- Метатеги, которые указывают на описание страницы -->
+        <meta name="description" content="Описание сайта отображаемое в превью ссылок" />
+        <meta property="og:description" content="Описание сайта отображаемое в превью ссылок" />
+        <!-- Метатег, который указывает ключевые слова страницы -->
+        <meta name="keywords" content="портфолио, веб-разработчик, веб-дизайнер, сайты" />
+        <!-- Метатеги, которые указывают на превью-изображение для страницы -->
+        <meta property="og:image" content="https://example.com/assets/img/preview.png" />
+        <meta property="og:image:alt" content="Описание изображения" />
+       <!-- Метатеги, которые указывают на ссылку на страницу и ее каноническую ссылку -->
+        <meta property="og:url" content="https://example.com/" />
+        <link rel="canonical" href="https://example.com/" />
 
         <!-- 
-            Задаем элемент параграф <p> для ссылок на графические материалы.
-            В стилях на footer-links задан flexbox, поэтому в тегах <br /> нет необходимости
-            Также, поскольку <p> может стилизовать весь текст внутри себя, на тегах <a>
-            не указываем никакой класс. Это упрощает расширение и изменение
-            списка ссылок в футере страницы. 
+            Задаем метатег viewport для корректного отображения на мобильных устройствах.
+            Это обязательный тег для страниц, которые будут открываться на мобильных устройствах.
+            Обычно initial-scale равен единице (1). Но здесь задаем 0.75. 
+            Делаем это потому, что исходный макет расчитан на крупный размер экрана.
+            Размеры шрифтов на макете не подходят для мобильных устройств: на телефоне
+            они выглядят слишком крупно. 
+            Чтобы скорректировать это, уменьшаем initial-scale до 0.75.
+            Это никак не влияет на отображение страницы на компьютере. 
         -->
-        <p class="footer-links color-black">
-            Изображения и иконки:
-            <a href="https://ru.freepik.com/free-vector/software-integration-concept-illustration_18352184.htm#page=2&query=веб-разработка&position=7&from_view=search&track=sph">
-                Изображение-1 от Storyset на Freepik.
+        <meta name="viewport" content="width=device-width, initial-scale=0.75" />
+
+        <!-- Подключаем все файлы со стилями -->
+        <link rel="stylesheet" href="/styles/fonts.css">
+        <link rel="stylesheet" href="/styles/reset.css">
+        <link rel="stylesheet" href="/styles/common.css">
+        <link rel="stylesheet" href="/styles/navbar.css">
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="/styles/about.css">
+        <link rel="stylesheet" href="/styles/skills.css">
+        <link rel="stylesheet" href="/styles/projects.css">
+        <link rel="stylesheet" href="/styles/form.css">
+        <link rel="stylesheet" href="/styles/reviews.css">
+        <link rel="stylesheet" href="/styles/letstalk.css">
+        <link rel="stylesheet" href="/styles/footer.css">
+        <link rel="stylesheet" href="/styles/animations.css">
+    </head>
+    
+    <!-- 
+        Добавляем тегу <body> атрибут tabindex со значением 0. 
+        Это единственный способ сделать так, чтобы hover на мобильных устройствах
+        работал по клику. 
+        tabindex="0" делает так, что по первому нажатию на элемент появляется его ховер. 
+        И только по второму срабатывает сам клик, то есть кнопка. 
+        Это необходимо сделать для этой страницы, чтобы карточки проектов
+        на мобильных устройствах работали корректно. 
+        Если не добавить tabindex, с телефона невозможно будет увидеть
+        ховеры карточек с описаниями проектов и сслыкой на сайт.
+    -->
+    <body tabindex="0">
+
+        <!-- Создаем навбар, то есть меню навигации с помощью семантического элемента <nav> -->
+        <nav class="enter-from-top">
+
+            <!-- 
+                Перечисляем навигационные ссылки с помощью ненумерованного списка.
+                Чтобы перемещаться по разделам одностраничного сайта,
+                используем перемещение к элементу по id. В СSS-файле 
+                задаем плавное перемещение, с помощью  smooth (см. CSS-файл).
+            -->
+            <ul>
+                <li><a class="nav-button color-black" href="#main">Главная</a></li>
+                <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
+                <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
+                <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
+            </ul>
+
+            <!-- 
+                Создаем контейнер для кнопки, чтобы была возможность 
+                ее отцентровать в оставшемся пространстве справа от основного списка ссылок.
+            -->
+            <div class="contact-button-container">
+                <a class="contact-button color-orange animated" href="#form">
+                    <!--
+                        Здесь и далее элемент span используем, чтобы стилизовать 
+                        или организовать текстовые элементы.
+                        Его основное отличие от элементов <h1>-<h>6, <p> и подобных 
+                        в том, что он по умолчанию отображается в режиме inline
+                        (в одну строку с остальным текстом), а не block.
+                    -->
+                    <span class="contact-button-text">Связаться со мной</span>
+                </a>
+            </div>
+        </nav>
+
+        <!--
+            Задаем мобильный навбар. Для компьютеров он скрыт (см. СSS-файл).
+            Используем для этого теги <details> и <summary>. 
+            Для этих тегов у браузера есть встроенное поведение (подробнее см. СSS-файл). 
+            С помощью этих тегов настраиваем «бургерное» меню без JavaScript.
+        -->
+        <nav class="mobile-nav enter-from-top">
+            <details>
+                <!-- 
+                    Элемент <summary> оставляем пустым. 
+                    С помощью СSS задаем ему картинку и размер. 
+                    Этот элемент выполняет роль кнопки-бургера.
+                    Когда details закрыт, отображается только summary, 
+                    то есть сама кнопка.
+                -->
+                <summary></summary>
+                <ul>
+                    <li><a class="nav-button color-black" href="#main">Главная</a></li>
+                    <li><a class="nav-button color-black" href="#about">Обо мне</a></li>
+                    <li><a class="nav-button color-black" href="#skills">Навыки и стек</a></li>
+                    <li><a class="nav-button color-black" href="#projects">Проекты</a></li>
+                </ul>
+            </details>
+            <!-- Создаем контейнер для кнопки, чтобы была возможность 
+                 ее отцентровать в оставшемся пространстве справа 
+                 от основного списка ссылок. -->
+            <a class="contact-button color-orange animated" href="#form">
+                <span class="contact-button-text">Связаться со мной</span>
             </a>
-            <a href="https://ru.freepik.com/free-vector/code-typing-concept-illustration_10259340.htm#&position=12&from_view=author">
-                Изображение-2 от Storyset на Freepik.
-            </a>
-            <a href="https://www.flaticon.com/ru/free-icons/html" title="html иконки">
-                Иконка "Html" oT Frey Wazza a Flaticon.
-            </a>
-            <a href="https://www.flaticon.com/ru/free-icons/" title="телеграмма иконки">
-                Иконка «Телеграм» от Freepik на Flaticon.
-            </a>
-            <a href="https: //www.flaticon.com/ru/free-icons/" title="общение иконки">
-                Иконка «Общение» от Ilham Fitrotul Hayat на Flaticon.
-            </a>
-            <a href="https://www.flaticon.com/ru/free-icons/-" title="Дизайн сайта иконки">
-                Иконка «Дизайн сайта» от Freepik на Flaticon.
-            </a>
-            <a href="https://www.flaticon.com/ru/free-icons/-" title=" Эл. адрес иконки">
-                Иконка «Эл. адрес» от Those Icons a Flaticon.
-            </a>
-        </p>
-    </footer>
-</body>
+        </nav>
+
+        <!-- 
+            Создаем контейнер для основного контента сайта.
+            Используем семантический тег <main>.
+        -->
+        <main>
+
+            <!-- 
+                Создаем секцию с id="main" для главной страницы.
+                У секции есть только один класс — container. 
+                Он отвечает за общие для всех основных секций стили (см. CSS-файл).
+            -->
+            <section id="main" class="container">
+
+                <!-- 
+                    Элементу <h1> задаем три класса.
+                    Один из них отвечает за шрифт и общие для всех
+                    заголовков первого уровня стили. 
+                    Второй — за цвет шрифта. 
+                    Эти классы разделены, для того чтобы можно
+                    было использовать их по отдельности, например, задать
+                    такой же цвет шрифта для другого элемента.
+
+                    Третий класс отвечает за анимацию. Именно он определяет,
+                    каким по порядку элемент появляется на странице. 
+                    Дизайн страницы устроен так, что в большинстве случаев
+                    один раздел занимает всю высоту экрана.
+                    Поэтому достаточно задать порядок появления элементов внутри
+                    каждого раздела. Не нужно выстраивать появление элементов 
+                    по порядку для всей страницы (подробнее см. animations.css). 
+                    По этой причине классов для анимации всего 4 — fade-in-1, fade-in-2,
+                    fade-in-3, fade-in-4. Цифра в названии каждого класса указывает, 
+                    каким по счету появится элемент внутри раздела.
+                    Выбор классов для элементов и порядок появления элементов дальше
+                    комментируется отдельно. 
+                    Заголовки всегда появляются первыми, если нет фона. Если в разделе
+                    есть фон, сначала появляется фон — потом заголовок.
+                -->
+                <h1 class="big-header color-black fade-in-1">
+                    Имя Фамилия
+                </h1>
+
+                <!-- Задаем тексту класс fade-in-2, чтобы текст появился во второй этап анимации. -->
+                <p class="main-desc desc-font color-black fade-in-2">
+                    Короткая фраза про автора портфолио с самой важной информацией. 
+                    Например: «Разрабатываю сайты-визитки и рекламные лендинги».
+                </p>
+                <!-- 
+                    Изображению задаем класс fade-in-3, чтобы оно появилось
+                    на третий этап анимации. 4 этап анимации здесь не нужен, 
+                    т.к. в разделе всего 3 объекта.  
+                    Далее, везде где не нужен четвертый этап,
+                    про него не будет написано.
+                -->
+                <img 
+                    class="main-pic fade-in-3" 
+                    src="/Изображения/Главный экран.png" 
+                    alt="Абстрактное изображение компьютерного монитора"
+                />
+            </section>
+
+            <!-- Создаем секцию «Обо мне» с id "about" -->
+            <section id="about" class="container">
+
+                <!--
+                    Группируем заголовок и описание в этой в контейнер.
+                    Это нужно для того, чтобы задать им фон. 
+                    При этом этот фон не должен распространяться
+                    на третий элемент — фотографию автора портфолио.
+                -->
+                <div class="about-details background-turquoise fade-in-1">
+                    <!-- Задаем появление заголовка во втором этапе анимации, т.к. есть фон. -->
+                    <h1 class="big-header color-black fade-in-2">
+                        Привет, я веб-разработчик
+                    </h1>
+                    <!-- Задаем появление текста на третьем этапе анимации. -->
+                    <p class="about-desc desc-font color-black fade-in-3">
+                        Описание автора портфолио. Более подробный текст про вас, что&nbsp;вы делаете, какими проектами занимаетесь, какой у
+                        вас опыт в профессии.
+                    </p>
+                </div>
+
+                <!--
+                    Оборачиваем фотографию в тег <figure>. 
+                    Это упростит настройку стилей для нее. В первую очередь,
+                    скругление углов. 
+                    Семантически тег <figure> соответствует изображению.
+                -->
+                <!-- Задаем появление картинки на четвертом этапе анимации. -->
+                <figure class="about-photo fade-in-4">
+                    <img src="/Изображения/photo.png" alt="Фотография автора портфолио">
+                </figure>
+            </section>
+
+            <!-- Создаем секцию «Навыки и стек» с id "skills" -->
+            <section id="skills" class="container">
+                <h1 class="big-header color-black fade-in-1">
+                    Навыки и стек технологий
+                </h1>
+
+                <!--
+                    Создаем контейнер, который содержит в себе
+                    все три колонки таблицы с навыками.
+                -->
+                <!-- Задаем появление рамки таблицы и первой колонки на втором этапе анимации.-->
+                <div class="skills-table fade-in-2">
+
+                    <!-- 
+                         Создаем Класс "skills-card" для одной колонки,
+                        чтобы настроить стиль отображения отдельной колонки в разделе. -->
+                    <div class="skills-card fade-in-2">
+
+                        <!--
+                            Создаем класс "skills-card-section" внутри "skills-card".
+                            Он нужен для корректной работы grid. 
+                            А также с помощью этого класса настроим в стилях 
+                            выравнивание оранжевых заголовков на одном уровне. 
+                        -->
+                        <section class="skills-card-section">
+                            <img 
+                                class="skills-card-icon" 
+                                src="/Иконки/Development.svg" 
+                                alt="Иконка програмный код"
+                            />
+
+                            <!--
+                                Задаем заголовок колонки с помощью <h2>, 
+                                так как на странице есть заголовки первого уровня.
+                                Это все основные заголовки разделов. 
+                                В том числе — заголовок секции «Навыки и стек», 
+                                к которой относится таблица. 
+                            -->
+                            <h2 class="skills-card-header color-black">
+                                Разработка сайтов
+                            </h2>
+                            <p class="skills-card-text color-black">
+                                Короткое общее описание навыков в разработке: 
+                                фронтенд, бэкенд, базы данных, DevOps.
+                            </p>
+                        </section>
+
+                        <section class="skills-card-section">
+
+                            <!--
+                                Задаем один из подзаголовков колонки. Используем <h3>, 
+                                т.к. первый уровень – заголовок секции, второй –
+                                заголовок колонки.
+                            -->
+                            <h3 class="skills-card-subheader color-orange">
+                                Языки
+                            </h3>
+
+                            <!--
+                                Для оформления текста с навыками и пр. используем 
+                                ненумерованный список. С его помощью легче настроить
+                                корректное отображение текста. 
+                                Также можно использовать <p> с <br/>, который разделяет строки.
+                            -->
+                            <ul class="skills-card-list color-black">
+                                <li>HTML, CSS...</li>
+                                <li>Дополните список</li>
+                            </ul>
+                            <h3 class="skills-card-subheader color-orange">
+                                Инструменты
+                            </h3>
+                            <ul class="skills-card-list color-black">
+                                <li>VS Code</li>
+                                <li>Github</li>
+                                <li>Git</li>
+                                <li>Дополните список</li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <!-- Добавляем еще две колонки таблицы с навыками. -->
+                    <!-- Задаем появление второй колонки таблицы на третьем этапе анимации. -->
+                    <div class="skills-card fade-in-3">
+                        <section class="skills-card-section">
+                            <img 
+                                class="skills-card-icon" 
+                                src="/Иконки/Design.svg" 
+                                alt="Иконка кисть на фоне компьютера"
+                            />
+                            <h2 class="skills-card-header color-black">
+                                Дизайн
+                            </h2>
+                            <p class="skills-card-text color-black">
+                                Короткое общее описание навыков дизайна.
+                            </p>
+                        </section>
+                        <section class="skills-card-section">
+                            <h3 class="skills-card-subheader color-orange">
+                                Инструменты
+                            </h3>
+                            <ul class="skills-card-list color-black">
+                                <li>Figma</li>
+                                <li>Дополните список</li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <!-- Задаем появление третьей колонки таблицы на четвертом этапе анимации. -->
+                    <div class="skills-card fade-in-4">
+                        <section class="skills-card-section">
+                            <img 
+                                class="skills-card-icon"
+                                src="/Иконки/SoftSkills.svg"
+                                alt="Иконка коммуникация"
+                            />
+                            <h2 class="skills-card-header color-black">
+                                Soft skills
+                            </h2>
+                            <p class="skills-card-text color-black">
+                                Короткое общее описание софт скиллов. 
+                                Умение работать в команде и пр.
+                            </p>
+                        </section>
+                        <section class="skills-card-section">
+                            <h3 class="skills-card-subheader color-orange">
+                                Навыки
+                            </h3>
+                            <ul class="skills-card-list color-black">
+                                <li>Навык</li>
+                                <li>Навык</li>
+                                <li>Навык</li>
+                                <li>Навык</li>
+                            </ul>
+                        </section>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Создаем секцию «Проекты» с id "projects" -->
+            <section id="projects" class="container">
+                <h1 class="big-header color-black fade-in-1">
+                    Проекты
+                </h1>
+
+                <!-- 
+                    Создаем контейнер для карточек проектов.
+                    Помещаем в него 6 карточек, как в макете. 
+                    Отображение в контейнере настроим так,
+                    что карточек можно разместить больше или
+                    меньше, и это не нарушит внешний вид (см. CSS-файл).
+                -->
+                <!-- Задаем появление сетки с карточками проектов на втором этапе анимации. -->
+                <div class="projects-display fade-in-2">
+                    
+                    <!--
+                        Карточку проекта по-прежнему верстаем через <figure>.
+                        Но убираем отсюда скриншот проекта. Добавляем его через
+                        фон для <figure> в СSS (подробнее см. projects.css).
+                        Группируем описание проекта и кнопку с ссылкой на сайт
+                        в <figcaption>.
+                    -->
+                    <figure class="projects-card">
+                        <figcaption class="projects-card-caption">
+                            Короткое описание проекта: в чем его суть, что было сделано
+                            <a class="animated" href="https://example.com">Посмотреть сайт</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="projects-card">
+                        <figcaption class="projects-card-caption">
+                            Короткое описание проекта: в чем его суть, что было сделано
+                            <a class="animated" href="https://example.com">Посмотреть сайт</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="projects-card">
+                        <figcaption class="projects-card-caption">
+                            Короткое описание проекта: в чем его суть, что было сделано
+                            <a class="animated" href="https://example.com">Посмотреть сайт</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="projects-card">
+                        <figcaption class="projects-card-caption">
+                            Короткое описание проекта: в чем его суть, что было сделано
+                            <a class="animated" href="https://example.com">Посмотреть сайт</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="projects-card">
+                        <figcaption class="projects-card-caption">
+                            Короткое описание проекта: в чем его суть, что было сделано
+                            <a class="animated" href="https://example.com">Посмотреть сайт</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="projects-card">
+                        <figcaption class="projects-card-caption">
+                            Короткое описание проекта: в чем его суть, что было сделано
+                            <a class="animated" href="https://example.com">Посмотреть сайт</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <!-- Задаем появление кнопки на третьем этапе анимации. -->
+                <a class="projects-button color-orange fade-in-3 animated" href="https://github.com/username">
+                    <span class="projects-button-text">Посмотреть на Github</span>
+                </a>
+            </section>
+
+            <!-- Создаем секцию с формой обратной связи с id "form". -->
+            <section id="form" class="container">
+
+                <!--
+                    Создаем контейнер для заголовка с описанием. 
+                    Он нужен для того, чтобы задать цвет фона.
+                -->
+                <div class="form-details container background-turquoise fade-in-1">
+                    <h1 class="big-header color-black fade-in-2">
+                        Хотите заказать сайт?
+                    </h1>
+                    <!-- 
+                        Задаем появление описания одновременно с заголовком
+                        на втором этапе анимации. 
+                        Это нужно для того, чтобы хватило места
+                        для анимации картинки и формы.
+                    -->
+                    <p class="form-details-text desc-font color-black fade-in-2">
+                        Напишите мне, чтобы обсудить детали.
+                    </p>
+                </div>
+
+                <!-- 
+                    Создаем контейнер для формы и иллюстрации к ней. 
+                    Кнтейнер нужен для того, чтобы настроить позиционирование
+                    и правильно расположить элементы вместе.
+                -->
+                <div id="contact-form" class="form-container">
+
+                    <!-- Задаем появление картинки на третьем этапе анимации. -->
+                    <img 
+                        class="form-pic fade-in-3" 
+                        src="/Изображения/Форма.png" 
+                        alt="Абстрактное изображение компьютера и рук печатающих на клавиатуре"
+                    />
+                    
+                    <!-- Задаем появление формы на четвертом этапе анимации. -->
+                    <form class="form fade-in-4">
+
+                        <!--
+                            Оборачиваем все элементы формы в <fieldset>.
+                            Это семантический тег, который группирует несколько
+                            полей ввода в форме. 
+                            Помните, что у <fieldset> обычно есть стили по умолчанию. 
+                            Чтобы форма отображалась корректно, отключите их (см. CSS-файл).
+                        -->
+                        <fieldset class="form-sender-data">
+
+                            <!--
+                                Поле ввода оборачиваем в <label>. Это нужно для того,
+                                чтобы корректно настроить отображение подписи над полем ввода. 
+                                Можно также исопользовать <div> вместо <label> и <label> вместо <span>.
+                                Но в технической спецификации элемента <label> предусмотрено его использование в качестве
+                                контейнера для поля ввода с подписью.
+                            -->
+                            <label class="form-field" for="name">
+
+                                <!-- 
+                                    Подпись к полю ввода добавляем через элемент <span>.
+                                    Он часто используется для стилизации части текста внутри
+                                    другого текстового элемента. 
+                                    inline отображение элемента <span> здесь роли не играет.
+                                -->
+                                <span class="form-label color-black">Имя</span>
+
+                                <!-- 
+                                    Задаем только два класса элементам <input> и <textarea>:
+                                    form-input и color-black.
+                                    Остальные стили настраиваем через комбинатор класса родительского <fieldset> 
+                                    с элементом поля ввода. 
+                                    Таким образом количество классов на элементе 
+                                    не слишком большое, что выглядит элегантнее и улучшает читаемость кода.
+                                -->
+                                <input class="form-input color-black" type="text" name="name" />
+                            </label>
+
+                            <label class="form-field" for="email">
+                                <span class="form-label color-black">E-mail</span>
+                                <input class="form-input color-black" type="email" name="email" />
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="form-text-body">
+                            <label class="form-field" for="body">
+                                <span class="form-label color-black">Расскажите про свою задачу</span>
+                                <textarea class="form-input color-black" name="body"></textarea>
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="form-submit">
+                            
+                            <!-- 
+                                Для кнопки в форме используем <button>.
+                                Можно также использовать тег input type="submit". 
+                                Разницы почти нет, кроме презаданных стилей
+                                некоторых браузеров. 
+                                Поскольку на этой странице уже используется элемент button,
+                                и для него уже заданы общие стили (отключены 
+                                браузерные стили и задан курсор), то проще
+                                использовать его же и здесь.
+                            -->
+                            <button class="form-button color-orange animated" type="submit">
+                                <span class="form-button-text">Отправить</span>
+                            </button>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Создаем секцию с отзывами с id "reviews". -->
+            <section id="reviews" class="container">
+                <h1 class="big-header color-black fade-in-1">
+                    Отзывы
+                </h1>
+                <!-- Задаем появление описания на втором этапе анимации. -->
+                <p class="reviews-desc desc-font color-black fade-in-2">
+                    Люди, с которыми я работал(а), остаются довольны результатом.
+                </p>
+
+                <!-- 
+                    Создаем контейнер для картинки через <figure>. 
+                    Здесь нужен именно этот тег, так как к изображению нужно добавить подпись. 
+                    Логичнее всего добавить подпись через <figcaption>, который 
+                    должен быть внутри <figure>.  
+                    <figcaption> — специальный тег, который используется как контейнер 
+                    для подписи к изображениям. 
+                    Контейнер для картинки нужен также для того, чтобы задать размеры
+                    и рамку изображению.
+                -->
+                <figure class="reviews-card">
+                    <!--
+                        Задаем появление фотографии из карточки отзыва на втором этапе анимации. 
+                        Визуально карточка отзыва не выглядит, как единый элемент.
+                        Поэтому разделяем анимацию на два этапа.
+                    -->
+                    <div class="reviews-photo fade-in-3">
+                        <img 
+                            src="/Изображения/photo.png"
+                            alt="Фото автора отзыва"
+                        />
+                    </div>
+
+                    <!-- 
+                        Создаем элемент с текстом отзыва и именем автора отзыва.
+                        Добавляем их через <p>, так как они располагаются
+                        друг под другом. Нет необходимости в inline отображении элементов.
+                    -->
+                    <!-- Задаем появление текста отзыва и подписи на четвертом этапе анимации. -->
+                    <figcaption class="reviews-caption fade-in-4">
+                        <p class="reviews-text color-black">«Текст отзыва»</p>
+                        <p class="reviews-info color-black">Имя Фамилия</p>
+                        <p class="reviews-info color-black">Компания, Город</p>
+                    </figcaption>
+                </figure>
+
+                <!-- 
+                    Создаем переключатель для отзывов через <button>. 
+                    Пока это просто кнопка, которая ничего не делает. 
+                    Можно задать его с помощью любого элемента
+                    и в CSS настроить нужный вид курсора. 
+                    onclick работает на любом теге.
+                -->
+                <!-- 
+                    Задаем появление переключателей отзывов тоже на 4 этапе. 
+                    Задаем анимацию отдельно для каждого переключателя. 
+                    Это нужно сделать потому, что у них есть дочерние элементы,
+                    которые не нужно анимировать или нужно анимировать на другом этапе.
+                -->
+                <div class="reviews-toggle fade-in-4">
+                    <button class="reviews-toggle-button animated" type="button">
+
+                        <!-- 
+                            Добавляем иконки для кнопок. 
+                            Добавляем сразу два элемента img — с одинаковыми иконками,
+                            но с разной заливкой. Это нужно для того, чтобы менять кнопку по hover. 
+                            У них заданы одинаковые стили, поэтому при смене отображения 
+                            с одной на другую никаких сдвигов происходить не будет. 
+                            Второй иконке добавляем дополнительный класс, который
+                            в отсутствие hover выключает ее отображение на странице. 
+                            А при наведении, наоборот, включает. (см. CSS-файл).
+                        -->
+                        <img 
+                            class="reviews-toggle-arrow" 
+                            src="/Иконки/Arrow-L.svg" 
+                            alt="Стрелка влево"
+                        />
+                        <img 
+                            class="reviews-toggle-arrow icon-hover"
+                            src="/Иконки/Arrow-L-white.svg" 
+                            alt="Стрелка влево" 
+                        />
+                    </button>
+
+                    <button class="reviews-toggle-button animated" type="button">
+                        <img 
+                            class="reviews-toggle-arrow" 
+                            src="/Иконки/Arrow-R.svg" 
+                            alt="Стрелка вправо" 
+                        />
+                        <img 
+                            class="reviews-toggle-arrow icon-hover" 
+                            src="/Иконки/Arrow-R-white.svg" 
+                            alt="Стрелка вправо" 
+                        />
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!--
+            Секция «Договоримся о сотрудничестве» не имеет прямого отношения
+            к основному контенту на сайте.
+            Поэтому выносим ее из <main> и добавляем через <aside>.
+            Задаем ему тот же класс container для стилизации.
+        -->
+        <!-- Задаем появление фона на первом этапе анимации. 
+             Градиентный, для эффекта наложения на футер. -->
+        <aside id="letstalk" class="container fade-in-1">
+
+            <!-- 
+                Создаем контейнер для секции, чтобы в стилях оформить его
+                как фиолетовый прямоугольник со скругленными углами.
+                Создаем также контейнер для кнопки. 
+                Он нужен для того, чтобы отцентровать ее вертикально. 
+                Подробнее об отображении в данном контейнере см. в CSS-файле.
+            -->
+            <!-- Задаем появление всех остальных частей элемента на втором этапе анимации. -->
+            <div class="letstalk-box fade-in-2">
+                <h2 class="letstalk-header">
+                    Договоримся о сотрудничестве
+                </h2>
+                <p class="letstalk-text">
+                    У вас есть идея проекта или предложение о работе? 
+                    Напишите мне. Я открыт(а) к&nbsp;разным вариантам
+                    сотрудничества.
+                </p>
+                <div class="letstalk-button-container">
+                    <a class="letstalk-button animated" href="#form">
+                        <span class="letstalk-button-text">Связаться с разработчиком</span>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!--
+            Создаем футер в одноименном семантическом теге.
+            Класс этому элементу не требуется, поскольку, 
+            как и <nav>, он используется только один раз на странице.
+        -->
+        <!-- 
+            На первом этапе, одновременно с градиентным фоном элемента letstalk 
+            (чтобы все выглядело как один элемент) запускаем анимацию фона футера.
+        -->
+        <footer class="fade-in-1">
+            <!-- На втором этапе анимации запускаем иконки соц.сетей. -->
+            <div class="footer-socials fade-in-2">
+                <!--
+                    Для иконок соцсетей также добавляем ве картинки сразу.
+                    Одна из них скрыта и используется для эффекта hover (подробнее см. выше). 
+                    Добавляем класс icon-hover, такой же, как и в случае выше.
+                    Но поскольку в CSS-файле он используется только в комбинации с классом и селектором
+                    hover на родительском элементе <button>, общих стилей у иконок 
+                    соцсетей и кнопок-стрелок в отзывах нет.
+                -->
+                <a class="footer-social-container animated" href="https://t.me/example">
+                    <img 
+                        class="footer-social-icon" 
+                        src="/Иконки/TG.svg"
+                    />
+                    <img 
+                        class="footer-social-icon icon-hover" 
+                        src="/Иконки/TG-white.svg"
+                    />
+                </a>
+                <a class="footer-social-container animated" href="https://habr.com/ru/users/example">
+                    <img
+                        class="footer-social-icon" 
+                        src="/Иконки/Habr.svg" 
+                    />
+                    <img
+                        class="footer-social-icon icon-hover"
+                        src="/Иконки/Habr-white.svg"
+                    />
+                </a>
+
+                <!-- 
+                    Добавляем ссылку на адрес электронной почты.
+                    Вместо http в href используем протокол mailto, который открывает 
+                    почтовый клиент по умолчанию на устройстве пользователя. 
+                    Например, Outlook на Windows или приложение «Почта» на iOS.
+                -->
+                <a class="footer-social-container animated" href="mailto:someone@example.com">
+                    <img 
+                        class="footer-social-icon" 
+                        src="/Иконки/Email.svg" 
+                    />
+                    <img 
+                        class="footer-social-icon icon-hover" 
+                        src="/Иконки/Email-white.svg" 
+                    />
+                </a>
+            </div>
+
+            <!-- 
+                Задаем элемент параграф <p> для ссылок на графические материалы.
+                В стилях на footer-links задан flexbox, поэтому в тегах <br /> нет необходимости
+                Также, поскольку <p> может стилизовать весь текст внутри себя, на тегах <a>
+                не указываем никакой класс. Это упрощает расширение и изменение
+                списка ссылок в футере страницы. 
+            -->
+            <!-- На третьем этапе анимации запускаем ссылки внизу футера. -->
+            <p class="footer-links color-black fade-in-3">
+                Изображения и иконки:
+                <a href="https://ru.freepik.com/free-vector/software-integration-concept-illustration_18352184.htm#page=2&query=веб-разработка&position=7&from_view=search&track=sph">
+                    Изображение-1 от Storyset на Freepik.
+                </a>
+                <a href="https://ru.freepik.com/free-vector/code-typing-concept-illustration_10259340.htm#&position=12&from_view=author">
+                    Изображение-2 от Storyset на Freepik.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/html" title="html иконки">
+                    Иконка "Html" oT Frey Wazza a Flaticon.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/" title="телеграмма иконки">
+                    Иконка «Телеграм» от Freepik на Flaticon.
+                </a>
+                <a href="https: //www.flaticon.com/ru/free-icons/" title="общение иконки">
+                    Иконка «Общение» от Ilham Fitrotul Hayat на Flaticon.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/-" title="Дизайн сайта иконки">
+                    Иконка «Дизайн сайта» от Freepik на Flaticon.
+                </a>
+                <a href="https://www.flaticon.com/ru/free-icons/-" title=" Эл. адрес иконки">
+                    Иконка «Эл. адрес» от Those Icons a Flaticon.
+                </a>
+            </p>
+        </footer>
+    </body>
 </html>
